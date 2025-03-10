@@ -11,7 +11,7 @@ from comfy.model_management import get_torch_device
 device = get_torch_device()
 
 
-class StyleStudioNode:
+class StyleStudio:
     @classmethod
     def INPUT_TYPES(cls):
         return {
