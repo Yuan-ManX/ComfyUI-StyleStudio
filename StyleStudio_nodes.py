@@ -3,8 +3,8 @@ import numpy as np
 import random
 from PIL import Image
 from diffusers import AutoencoderKL, StableDiffusionXLPipeline
-from ip_adapter.utils import BLOCKS
-from ip_adapter import StyleStudio_Adapter
+from StyleStudio.ip_adapter.utils import BLOCKS
+from StyleStudio.ip_adapter import StyleStudio_Adapter
 from comfy.model_management import get_torch_device
 
 
